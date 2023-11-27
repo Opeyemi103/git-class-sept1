@@ -1,0 +1,67 @@
+/* body
+body{
+    background: #fff9f2;
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* header */
+/* .header{
+    background: rgb(255,255,255);
+}
+.headerBTN{
+    background: #6d1830;
+    color: white;
+    font-size: 12px;
+    transition: 0.5s ease;
+}
+.headerBTN:hover{
+    background: #300511;
+} */ 
+
+/* hero section */
+/* .hero{
+    margin-top: 100px;
+}
+.hero.TXT{
+    margin-top: 60px;
+} */
+
+body{
+    background: #fff9f2;
+    display: relative;
+    height: 50px;
+}
+
+header nav{
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.headerBtn{
+    background: #6d1830;
+    color: white;
+    font-size: 12px;
+    transition: .5s ease;
+}
+.headerBtn:hover{
+    background: #300511;
+}
+
+/* HERO SECTION */
+/* .hero{
+    margin-top: 100px;
+}
+.heroTxt{
+    margin-top: 60px;
+}
+.herobtn{
+    display: flex;
+}
+.heroDownloadBtn{
+    background: #6d1830;
+    color: white;
+    font-size: 13px;
+    padding: 15px 20px;
+    transition: .5s ease;
+} */

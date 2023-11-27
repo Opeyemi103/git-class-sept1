@@ -1,0 +1,339 @@
+
+/* BODY */
+body{
+    background: #FFF9F2;
+    display: block;
+    content: '';
+    height: 60px;
+    overflow-x:hidden ;
+}
+
+/* HEADER */
+.header{
+    background: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(243, 242, 242);      
+}
+.navbar{
+    padding: 15px 20px;
+}
+.link{
+    color: rgb(87, 3, 3);
+    font-weight: 400;
+    transition: .2s ease;
+}
+.mobileNav .nav-link:hover{
+    color: #6D1830;
+    border-bottom: 3px solid  #6D1830;
+
+}
+.navbar .active{
+    font-weight: bold;
+    border-bottom: 3px solid  #6D1830;
+    width:100%; 
+    color: #6D1830;
+}
+.headerBtn{
+    background: #6D1830;
+    color: white;
+    font-size: 12px;
+    transition: .5s ease;
+}
+.headerBtn:hover{
+    background: #300511;
+}
+
+
+/* HERO SECTION */
+.heroSection{
+    background: #fdf8f8;
+}
+.hero{
+    padding-top: 100px;
+}
+.heroTxt{
+    margin-top: 60px;
+}
+/* .herobtn{
+    display: flex;
+} */
+.heroDownloadBtn{
+    background: #6D1830;
+    color: white;
+    font-size: 13px;
+    padding: 15px 20px;
+    transition: .5 ease;
+}
+.heroDownloadBtn:hover{
+    background: #29020d;
+}
+.patnerLogo{
+    background: #FFFFFF;
+}
+.partnerLogo img{
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+/* EXPERIENCE */
+.phonepixTxt{
+    margin-top: 100px;
+}
+.PhoneP{
+    font-size: 12px;
+}
+
+/* INTRODUCING */
+.introNerf{
+    margin-top: 200px;
+    background: rgb(2, 33, 51);
+    height: 300px;
+    padding: 35px 20px 20px 20px;
+}
+.introNerf img{
+    margin-top: -170px;
+}
+.extendedPhone{
+    width: 80%;
+    margin: o auto;
+}
+.introNerfBtn{
+    background: #fff;
+    transition: .5 ease;
+}
+.introNerfBtn:hover{
+    background: #d4bbc6;
+}
+.crossPhoneMobile{
+    display: none;
+}
+
+/* HORIZONTAL RULE */
+.horizontalRule{
+    margin-top: 180px;
+}
+
+/* BEST FEATURE */
+.bestFeature.list{
+    margin-top: 30px;
+    background: #fff6f9;
+}
+.bestFeature.list p{
+    margin-top: -10px;
+}
+.bestFeatureContain{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-top: 3px solid #6d1830;
+    border-right: 3px solid #6d1830;
+}
+
+/* INTERACTIVE AND SEAMLESS */
+.interactive,.seamlessIntegration,.topNotch{
+    background: white;
+    border-radius: 10px;
+    border-top: 3px solid #6d1830;
+    border-right: 3px solid #6d1830;
+}
+
+/* TOP NOTCH */
+.topNotchTxt{
+    margin-top: 30px;
+}
+.redefine{
+    background: #143548;
+    color: white;
+}
+.redefineTxt{
+    padding: 20px;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+/* EASY */
+/* DOWNLOAD APP CARD PAGE */
+
+.EasyBtn{
+    background: #6D1830;
+    color: white;
+}
+
+/* NEWSLETTER SECTION */
+.newsLetter{
+    background:#6D1830;
+    color: white;
+    padding: 30px;
+}
+
+.inputForm  input{
+    width:79%;
+    padding: 7px;
+    outline: none;
+}
+.inputForm button{
+    padding: 7px;
+    color: #300511;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.linksAndGoogleApp{
+    padding: 30px 0;
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER SECTION */
+.footer{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+
+/* //////////////////////////////////////////////////  ABOUT PAGE   ////////////////////////////////////////////////// */
+
+
+.testimonies .card:hover{
+    background: #fff0f4;
+    transition: 3s ease;
+}
+.aboutViewSection{
+    padding-top: 50px;
+    background: rgb(2, 33, 51);
+    color:#fff;
+}
+
+.containerMe{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.aboutViewLogo{
+    float: right;
+    display: flex;
+}
+.ourMissionWrap{
+    width: 58%;
+    margin: 0 auto;
+}
+.ourMissionWrap p{
+    font-size: 17px;
+}
+
+
+
+/* //////////////////////////////////////////////////  BLOG PAGE   ////////////////////////////////////////////////// */
+
+.blogBackground{
+    background: white;
+}
+
+.articleShowscase p{
+    font-size: 13px;
+}
+.showcaseCol{
+    margin-top: -20px;
+}
+.pagination li a{
+    color: #700624;
+}
+.pagination li a:hover{
+    color: #d83563;
+}
+.featuredArticle h2{
+    color: #700624;
+}
+.featuredArticle h2:hover{
+    color: #d83563;
+}
+.featuredArticle h3:hover{
+    color: rgb(5, 5, 82);
+}
+
+/*//////////////////3D REAL ESTATE IMG CAPTION  /////////////////////////////////*/
+
+.DEstatecontainer{
+    width: 85%;
+    margin: 0 auto;
+}
+.imgCaption p, h3{
+    cursor: pointer;
+}
+
+.imgCaption p:hover{
+ color: #d83563;
+}
+.imgCaption h3:hover{
+ color: rgb(5, 5, 82);
+}
+.captionTxt  ul{
+    list-style: decimal;
+    margin-left: -15px;
+}
+.captionTxt p{
+    text-align: justify;
+}
+.amaraGroup{
+    width: 80%;
+    margin: 0 auto;
+}
+ .amaraTxt p{
+    font-size: 14px;
+ }
+ .amaraTxt .icons img{
+    margin-right: 20px;
+    margin-top: -20px;
+ }
+ .amaraProfile{
+    background: #FFF9F2;
+    padding: 40px 0;
+}
+.articleShowscaseHeaderAndBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.articleBtn{
+    border: 2px solid #700624;
+    background:white; 
+    font-weight: bold;
+    color:#700624;
+}
+
+
+
+
+/*//////////////////////////// CONTACT PAGE ///////////////////////////////*/
+
+.preferToReach .card:hover{
+    background: #fff0f4;
+}
+
+.contactHero .aboutViewTxt{ 
+    width: 75%;
+}
+.fullNameEmailGroup{
+    display: flex;
+    gap: 70px;
+}
+.fullNameEmailGroup input{
+    width: 120%;
+}
+.formSubmit{
+background: #6D1830; ;
+color: white;
+}
+
+
+
+/* /////////////////////DOWNLOAD PAGE/////////////////////////// */
+.questionMark{
+    background: rgb(2, 33, 51);    background: rgb(2, 33, 51);
+    color: white;
+}
+
+
+
+
